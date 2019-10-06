@@ -93,4 +93,4 @@ RUN composer global require --optimize-autoloader \
     composer clear-cache
 
 # Application environment
-WORKDIR /app
+WORKDIR /app/api
